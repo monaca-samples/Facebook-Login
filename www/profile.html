@@ -1,0 +1,18 @@
+<ons-page ng-controller="ProfileCtrl">
+    <ons-toolbar>
+        <div class="center">Facebook Profile</div>
+        <div class="right">
+            <ons-toolbar-button ng-click="Logout()">
+                <ons-icon icon="fa-sign-out"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+    <div class="page">
+        <p class="center">
+            <img src="{{user.profile_url}}" class="profile">
+            <p>{{user.name}}</p>
+            <p>(@{{user.id}})</p>
+            <p>{{user.email}}</p>
+        </p>
+    </div>
+</ons-page>

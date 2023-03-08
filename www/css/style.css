@@ -1,0 +1,26 @@
+body {
+  min-height: 100vh;
+}
+
+div.page {
+   padding: 5%; 
+   text-align: center;
+}
+
+p.center {
+    text-align: center;
+}
+
+img.profile {
+    width: 40%;
+    border: solid 1px #1da1f2;
+    border-radius: 5px;
+}
+
+.navigation-bar {
+    background-color: #4267b2;
+}
+
+.button {
+    background-color: #4267b2;
+}
