@@ -17,6 +17,7 @@ ons.bootstrap()
 .controller('HomeCtrl', function($scope, StorageService, $http, $q) {
     var CheckLoginStatus = function(){
         window.facebookConnectPlugin.getLoginStatus(
+            true,
             function(data){
                 if(data.authResponse){
                     console.log('Login info is found!');
